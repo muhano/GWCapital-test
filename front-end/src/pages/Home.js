@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 
 function Home() {
   const [featured, setFeatured] = useState("headphone");
+  
+  
 
   return (
     <Container>
