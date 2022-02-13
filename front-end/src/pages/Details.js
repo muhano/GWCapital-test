@@ -116,19 +116,19 @@ function Details() {
       <h3>{productData.name}</h3>
       <Nav variant="tabs" defaultActiveKey="#overview">
         <Nav.Item>
-          <Nav.Link onClick={() => setStatusTab("overview")} href="#overview">
+          <Nav.Link onClick={() => setStatusTab("overview")} eventKey="#overview">
             Overview
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link onClick={() => setStatusTab("features")} href="#features">
+          <Nav.Link onClick={() => setStatusTab("features")} eventKey="#features">
             Features
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link
             onClick={() => setStatusTab("specification")}
-            href="#specification"
+            eventKey="#specification"
           >
             Specification
           </Nav.Link>

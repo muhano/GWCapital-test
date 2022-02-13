@@ -23,7 +23,7 @@ function Home() {
             <Nav.Item>
               <Nav.Link
                 onClick={() => setFeatured("headphone")}
-                href="#headphone"
+                eventKey="#headphone"
               >
                 Headphone
               </Nav.Link>
@@ -31,13 +31,13 @@ function Home() {
             <Nav.Item>
               <Nav.Link
                 onClick={() => setFeatured("headbands")}
-                href="#headbands"
+                eventKey="#headbands"
               >
                 Headbands
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link onClick={() => setFeatured("earpads")} href="#earpads">
+              <Nav.Link onClick={() => setFeatured("earpads")} eventKey="#earpads">
                 Earpads
               </Nav.Link>
             </Nav.Item>
