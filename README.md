@@ -8,8 +8,9 @@
 1. cd back-end
 2. npm i
 3. node app.js
+4. lalu di postman/ web browser
 
--lalu di postman/ web browser
+
 ```
 http://localhost:3000/twitterfeeds
 ```
