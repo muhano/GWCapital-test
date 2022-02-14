@@ -2,7 +2,7 @@
 - Created by Geri Muhano
 - github link untuk front-end dan back-end test: https://github.com/muhano/GWCapital-test
 - front-end link: https://ecommerce-project1-geri.web.app/
-- back-end link: belum bisa upload
+- back-end link: belum bisa upload di web hosting
 
 -cara penggunaan back-end:
 1. cd back-end
